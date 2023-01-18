@@ -1,9 +1,9 @@
 import "./Header.css"
 
-function Header() {
+function Header(props) {
   return (
     <div className="Header">
-      <h1>This is the Header component</h1>
+      <h1>Current number of movies: {props.numberOfMovies}</h1>
     </div>
   )
 }
